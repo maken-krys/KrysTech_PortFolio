@@ -1,0 +1,197 @@
+<!doctype html>
+<html lang="fr">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Portfolio — NLOME MADZOU ANAN KRYS EVY | Licence Génie Logiciel</title>
+    <meta name="description" content="Portfolio professionnel pour un étudiant en licence Génie Logiciel — réalisations, conceptions graphiques, compétences et contact."/>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="wrap">
+        <header>
+            <div class="brand">
+                <div class="logo">AM</div>
+                <div>
+                    <div style="font-weight:800">ANAN MADZOU</div>
+                    <div style="color:var(--muted);font-size:13px">Étudiant • Licence Génie Logiciel</div>
+                </div>
+            </div>
+            <nav>
+                <a href="#projets">Projets</a>
+                <a href="#designs">Designs</a>
+                <a href="#competences">Compétences</a>
+                <a href="#contact">Contact</a>
+                <a class="cta" href="#contact">Me contacter</a>
+            </nav>
+        </header>
+
+        <!-- HERO -->
+        <div class="hero">
+            <div class="hero-card">
+                <h1>Bonjour, je suis NLOME MADZOU ANAN KRYS EVY</h1>
+                <p class="subtitle">Étudiant en Licence Génie Logiciel — je conçois des applications web, des systèmes backend et des conceptions graphiques professionnelles.</p>
+                <div class="actions">
+                    <a class="btn" href="#projets">Voir mes réalisations</a>
+                    <a class="btn secondary" href="#designs">Voir mes conceptions graphiques</a>
+                    <a class="btn" href="CV.pdf" download>Télécharger CV</a>
+                </div>
+                <section id="projets" style="margin-top:18px">
+                    <h3 style="margin:0 0 10px 0">Projets récents</h3>
+                    <div class="grid">
+                        <article class="card">
+                            <div class="thumb" style="background-image:linear-gradient(180deg,rgba(0,0,0,0.2),transparent), url('Images/IMG-20240822-WA0029.jpg')">
+                                Promotion
+                            </div>
+                            <h4 class="proj-title">Guide Touristique Camerounais</h4>
+                            <p class="proj-desc">Application full-stack pour la promotion de la culture et des traditions camerounaises</p>
+                            <div class="tags"><span class="tag">Html5</span><span class="tag">Php</span><span class="tag">MySQL</span></div>
+                        </article>
+                        <article class="card">
+                            <div class="thumb" style="background-image:linear-gradient(180deg,rgba(0,0,0,0.2),transparent), url('Images/télécharger (3).jpg')">
+                                API performante
+                            </div>
+                            <h4 class="proj-title">API REST sécurisée</h4>
+                            <p class="proj-desc">Conception d'une API REST avec authentification JWT et tests automatisés.</p>
+                            <div class="tags"><span class="tag">Express</span><span class="tag">JWT</span><span class="tag">Mocha</span></div>
+                        </article>
+                        <article class="card">
+                            <div class="thumb" style="background-image:linear-gradient(180deg,rgba(0,0,0,0.2),transparent), url('Images/télécharger (4).jpg')">
+                                Interface élégante
+                            </div>
+                            <h4 class="proj-title">Site vitrine responsive</h4>
+                            <p class="proj-desc">Design et intégration d'un site vitrine accessible et responsive.</p>
+                            <div class="tags"><span class="tag">HTML</span><span class="tag">CSS</span><span class="tag">Accessibilité</span></div>
+                        </article>
+                    </div>
+                </section>
+            </div>
+
+            <aside class="profile">
+                <div class="avatar">AM</div>
+                <div style="font-weight:800;font-size:16px">NLOME MADZOU ANAN KRYS EVY</div>
+                <div class="meta">Licence Génie Logiciel — Institut Universitaire de la Cote</div>
+                <p style="color:var(--muted);font-size:14px;margin:10px 0">Je développe des solutions web robustes et je conçois des interfaces graphiques soignées.</p>
+                <div class="skills">
+                    <span class="chip">Web</span><span class="chip">Backend</span><span class="chip">UI/UX</span><span class="chip">Design</span>
+                </div>
+                <div style="margin-top:12px">
+                    <a class="btn" href="#contact">Contact</a>
+                    <a class="btn secondary" href="#competences" style="margin-left:8px">Compétences</a>
+                </div>
+            </aside>
+        </div>
+
+        <!-- Designs Gallery -->
+       <section id="designs">
+    <h2 style="margin-bottom:12px">Conceptions graphiques</h2>
+    <p style="color:var(--muted);margin-top:0;margin-bottom:12px">Exemples de UI, affiches, logos et maquettes.</p>
+    <div class="gallery" id="gallery">
+        <!-- CORRECT : On ne garde QUE le chemin de l'image -->
+        <div class="gimg" style="background-image:url('Images/ange.png')" data-title="Poster promotionnel"></div>
+        
+        <div class="gimg" style="background-image:url('Images/Flyer EasyWaka3.png')" data-title="UI mobile"></div>
+        <div class="gimg" style="background-image:url('Images/IMG-20240624-WA0023.jpg')" data-title="Logo entreprise"></div>
+        <div class="gimg" style="background-image:url('Images/joyeux-anniversaire-ballons-realistes_24972-2211.jpg')" data-title="Maquette web"></div>
+    </div>
+</section>
+
+        <!-- Competences -->
+        <section id="competences">
+            <h2 style="margin-bottom:12px">Compétences</h2>
+            <div style="display:grid;grid-template-columns:1fr 320px;gap:18px;align-items:start">
+                <div class="card">
+                    <h4 style="margin-top:0">Technique</h4>
+                    <div class="skill-row"><div>JavaScript / TypeScript</div><div style="color:var(--muted)">Débutant</div></div>
+                    <div class="bar" aria-hidden><i style="width:28%"></i></div>
+                    <div class="skill-row"><div>Java</div><div style="color:var(--muted)">Débutant</div></div>
+                    <div class="bar" aria-hidden><i style="width:10%"></i></div>
+                    <div class="skill-row"><div>MySQL</div><div style="color:var(--muted)">Intermédiaire</div></div>
+                    <div class="bar" aria-hidden><i style="width:48%"></i></div>
+                    <div class="skill-row"><div>UI/UX & Design</div><div style="color:var(--muted)">Bon</div></div>
+                    <div class="bar" aria-hidden><i style="width:62%"></i></div>
+                </div>
+                <div class="card">
+                    <h4 style="margin-top:0">Formation & Certifications</h4>
+                    <p style="color:var(--muted);margin-bottom:10px">Licence Génie Logiciel — Université (En cours)</p>
+                    <ul style="color:var(--muted);margin:0;padding-left:18px">
+                        <li>Projets académiques en architectures web</li>
+                        <li>Ateliers UI / Design Thinking</li>
+                        <li>Adobe Illustrator- Formation en ligne(certification de complétion)</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact -->
+        <section id="contact">
+            <h2>Contact</h2>
+            <div style="display:grid;grid-template-columns:1fr 360px;gap:18px;margin-top:12px">
+                <div class="card">
+                    <form class="contact-form" id="contactForm">
+                        <input type="text" id="name" placeholder="Votre nom" required />
+                        <input type="email" id="email" placeholder="Votre email" required />
+                        <input type="text" id="subject" placeholder="Sujet" />
+                        <textarea id="message" rows="6" placeholder="Votre message" required></textarea>
+                        <div style="display:flex;gap:8px">
+                            <button class="btn" type="submit">Envoyer</button>
+                            <a class="btn secondary" href="mailto:email@example.com">Envoyer par mail</a>
+                        </div>
+                    </form>
+                    <div class="foot">
+                        <div>Disponible pour stages et projets</div>
+                        <div>📍 Douala, Cameroun</div>
+                    </div>
+                </div>
+                <div class="card">
+                    <h4 style="margin-top:0">Réseaux</h4>
+                    <p style="color:var(--muted)">Vous pouvez me trouver sur :</p>
+                    <div style="display:flex;flex-direction:column;gap:8px;margin-top:8px">
+                        <a class="btn secondary" href="#" target="_blank">LinkedIn</a>
+                        <a class="btn secondary" href="#" target="_blank">GitHub</a>
+                        <a class="btn secondary" href="#" target="_blank">Dribbble / Behance</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <div style="font-size:14px">© <span id="year"></span> MADZOU ANAN — Portfolio professionnel</div>
+        </footer>
+    </div>
+
+    <script>
+        // Year
+        document.getElementById('year').textContent = new Date().getFullYear();
+
+        // Gallery lightbox simple
+        (function(){
+            const gallery = document.getElementById('gallery');
+            if(!gallery) return;
+            gallery.addEventListener('click', e=>{
+                const el = e.target.closest('.gimg');
+                if(!el) return;
+                const src = el.style.backgroundImage.replace(/^url\\(["']?/, '').replace(/["']?\\)$/, '');
+                const title = el.dataset.title || '';
+                const modal = document.createElement('div');
+                Object.assign(modal.style, {position:'fixed',inset:0,background:'rgba(2,6,23,0.85)',display:'flex',alignItems:'center',justifyContent:'center',zIndex:9999});
+                modal.innerHTML = '<div style="max-width:90%;max-height:90%;border-radius:12px;overflow:hidden;background:#000"><img src="'+src+'" style="display:block;max-width:100%;height:auto"/><div style="padding:10px;color:#fff;background:#000">'+title+' <span style="opacity:.6;margin-left:10px;font-size:13px">(Cliquez pour fermer)</span></div></div>';
+                modal.addEventListener('click', ()=>document.body.removeChild(modal));
+                document.body.appendChild(modal);
+            });
+        })();
+
+        // Contact form: basic client-side to mailto (no server)
+        document.getElementById('contactForm').addEventListener('submit', function(e){
+            e.preventDefault();
+            const name = document.getElementById('name').value.trim();
+            const email = document.getElementById('email').value.trim();
+            const subject = document.getElementById('subject').value.trim() || 'Contact portfolio';
+            const message = document.getElementById('message').value.trim();
+            if(!name || !email || !message) { alert('Veuillez remplir les champs obligatoires.'); return; }
+            const body = encodeURIComponent('De: ' + name + ' ('+email+')\\n\\n' + message);
+            window.location.href = 'mailto:email@example.com?subject='+encodeURIComponent(subject)+'&body='+body;
+        });
+    </script>
+</body>
+</html>
